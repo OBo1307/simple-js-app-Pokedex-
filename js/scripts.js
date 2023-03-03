@@ -6,16 +6,31 @@ let pokemonList = [
 ];
 
 for (let i = 0; i < pokemonList.length; i++) {
-    document.write(
-      pokemonList[i].name +
-        " " +
-        "(Weight:" +
-        pokemonList[i].weight +
-        ")" +
-        " " +
-        "(Type:" +
-        pokemonList[i].type +
-        ")" +
-        "<br>"
-    );
+    if (pokemonList[i].weight >= 40) {
+        document.write(
+            pokemonList[i].name +
+              " " +
+              "(Weight: " +
+              pokemonList[i].weight +
+              ")" +
+              " " +
+              "(Type: " +
+              pokemonList[i].type +
+              ")" + " - Wow, that's big!" + 
+              "<br>"
+          );
+    } else {
+        document.write(
+            pokemonList[i].name +
+              " " +
+              "(Weight: " +
+              pokemonList[i].weight +
+              ")" +
+              " " +
+              "(Type: " +
+              pokemonList[i].type +
+              ")" +
+              "<br>"
+          );
+    }
   }
