@@ -1,6 +1,6 @@
 ## Pokédex (Project for CareerFoundry)
 
-This is a Javascript app, where I use an external API to get 150 pokémons from the list.
+This is a Javascript app, where I use an external API to get 150 pokémons.
 
 ### How to use the site:
 
