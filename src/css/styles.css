@@ -1,0 +1,114 @@
+body {
+  background-color: #ACC8E5;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.list-group-item, .container {
+  max-width: 90%;
+  background-color: #ACC8E5;
+}
+
+.list-group-item {
+  border: none;
+}
+
+.btn-primary {
+  height: 10vh;
+  font-size: 20px;
+  border-radius: 8px;
+  border: none;
+  border-right: 0.9vh solid rgba(0, 0, 0, 0.8);
+  border-bottom: 0.9vh solid rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  background-color: #86F8D9;
+  color: #112A46;
+  width: 100%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-brand {
+  color: #112A46;
+  font-size: 1.37rem;
+}
+
+.bg-primary {
+  background-color: #86F8D9 !important;
+}
+
+.page-footer__item {
+  color: #112A46;
+  margin-bottom: 0;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.page-footer {
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.pokemon-list {
+  margin: 20px;
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+  font-size:15px;
+  font-family:Arial;
+}
+
+button {
+  text-transform: capitalize;
+}
+
+.modal-title {
+  text-transform: capitalize;
+  margin: auto;
+}
+
+.modal-content, .modal-header, .modal-body {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.close {
+  font-size: 3rem;
+}
+
+.modal-header {
+  background-color: #007bff;
+  border: 5px solid #000;
+  box-shadow: 5px 5px black;
+}
+
+.modal-body {
+  background-color: #007bff;
+  border: 5px solid #000;
+  border-top: none;
+  border-bottom: none;
+  box-shadow: 5px 5px black;
+}
+
+.modal-footer {
+  background-color: #007bff;
+  border: 5px solid #000;
+  border-top: none;
+  box-shadow: 5px 5px black;
+  justify-content: space-between;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.38rem;
+  padding-top: 21px;
+}
+
+.modal-img {
+  width: 40%;
+  height: auto;
+  display: flex;
+  margin: auto;
+  padding: 15px 0 15px 0;
+}
